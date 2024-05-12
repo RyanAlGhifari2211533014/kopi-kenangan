@@ -1,0 +1,52 @@
+/* Style dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.instructions {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.instructions h2 {
+    margin-bottom: 10px;
+}
+
+.instructions ol {
+    margin-left: 20px;
+}
+
+/* Style Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff; /* Teks warna putih */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Teks warna putih */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Warna kuning saat hover */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
